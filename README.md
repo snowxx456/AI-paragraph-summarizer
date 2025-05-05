@@ -52,13 +52,13 @@ Large Language Models, LLMs, Artificial Intelligence, deep learning, transformer
 ```
 Large Language Models (LLMs) are advanced AI systems trained on vast text data to understand and generate human-like language, enabling diverse tasks and shaping human-computer interaction despite inherent limitations.
 ```
-### Translation Output (Hindi - One line)
+### Output (Hindi Translation of Summary - One Line)
 ```
 [Hindi translation] बड़े भाषा मॉडल (एलएलएम) उन्नत एआई सिस्टम हैं जिन्हें विशाल टेक्स्ट डेटा पर प्रशिक्षित किया जाता है ताकि मानव जैसी भाषा को समझा और उत्पन्न किया जा सके, जो विभिन्न कार्यों को सक्षम बनाता है और निहित सीमाओं के बावजूद मानव-कंप्यूटर इंटरैक्शन को आकार देता है।
 ```
 ## Demo
 
-![Demo](./public/ai-paragraph-summarizer.gif)
+[![Watch the video](https://img.youtube.com/vi/7U0bubKvUhM/0.jpg)](http://youtube.com/watch?v=7U0bubKvUhM)
 
 ### You can try the deployed app here:  
 🔗 **[AI Paragraph Summarizer – Live Site](https://ai-paragraph-summarizer-zedens-projects.vercel.app/)**  
