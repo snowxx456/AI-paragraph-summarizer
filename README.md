@@ -105,7 +105,7 @@ Follow these steps to run the project on your local machine:
 
 ```bash
 git clone https://github.com/snowxx456/AI-paragraph-summarizer.git
-cd AI-paragraph-summarizer.git
+cd AI-paragraph-summarizer
 ```
 
 Or download the ZIP and extract it.
