@@ -35,9 +35,30 @@ This project is a web-based AI assistant that allows users to summarize any give
   { value: 'hi', language: 'Hindi' }
   ```
 
+## Sample
+###Input
+```
+Large Language Models (LLMs) are advanced artificial intelligence systems trained on massive datasets of text to understand and generate human-like language. These models, such as GPT (Generative Pre-trained Transformer), use deep learning techniques—specifically transformer architectures—to learn patterns, context, grammar, and even nuance across billions of words. The training process involves unsupervised learning, where the model predicts the next word in a sentence, gradually developing a contextual understanding of language. As a result, LLMs can perform a wide array of language-based tasks: from answering questions, summarizing documents, and translating languages, to writing essays, generating code, and even engaging in creative writing. Their capabilities extend beyond simple syntax, as they can reason, infer, and adapt responses based on the input they receive. However, while LLMs are powerful, they are not infallible—they can hallucinate facts, reflect biases present in training data, or misinterpret ambiguous prompts. The ethical use of LLMs, including concerns around misinformation, privacy, and fairness, is a key area of ongoing research and discussion. As these models continue to evolve and become more integrated into everyday tools, they are shaping the future of human-computer interaction, pushing the boundaries of what machines can understand and produce in natural language.
+```
+### Output (Paragraph)
+```
+Large Language Models (LLMs) are advanced AI systems trained on massive text data using deep learning, particularly transformer architecture, to understand and generate human-like language. They learn patterns and context through unsupervised training, enabling them to perform diverse tasks like summarizing, translating, writing, and even reasoning. While powerful, LLMs have limitations such as hallucinating facts and reflecting biases, raising important ethical considerations regarding their use and future integration into human-computer interaction.
+```
+### Output (Keywords)
+```
+Large Language Models, LLMs, Artificial Intelligence, deep learning, transformer architectures, massive datasets, unsupervised learning, language understanding, language generation, capabilities, limitations, ethical use, biases, hallucination, human-computer interaction
+```
+### Output (One Line)
+```
+Large Language Models (LLMs) are advanced AI systems trained on vast text data to understand and generate human-like language, enabling diverse tasks and shaping human-computer interaction despite inherent limitations.
+```
+### Translation Output (Hindi - One line)
+```
+[Hindi translation] बड़े भाषा मॉडल (एलएलएम) उन्नत एआई सिस्टम हैं जिन्हें विशाल टेक्स्ट डेटा पर प्रशिक्षित किया जाता है ताकि मानव जैसी भाषा को समझा और उत्पन्न किया जा सके, जो विभिन्न कार्यों को सक्षम बनाता है और निहित सीमाओं के बावजूद मानव-कंप्यूटर इंटरैक्शन को आकार देता है।
+```
 ## Demo
 
-![Demo](./public/demo.gif)
+![Demo](./public/ai-paragraph-summarizer.gif)
 
 ### You can try the deployed app here:  
 🔗 **[AI Paragraph Summarizer – Live Site](https://ai-paragraph-summarizer-zedens-projects.vercel.app/)**  
@@ -114,8 +135,9 @@ npm run dev
 Open http://localhost:3000 in your browser.
 
 ## Tech Stack
--Next.js 15 
--React + Hooks
--Tailwind CSS
--Google Gemini API (@google/generative-ai)
--Vercel for hosting
+
+- Next.js 15 
+- React + Hooks
+- Tailwind CSS
+- Google Gemini API (@google/generative-ai)
+- Vercel for hosting
